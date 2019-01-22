@@ -29,7 +29,7 @@ Most Google Apps should work, except Google Play Music or Hangouts. You can find
 	1. Allow missing permissions (you can still revoke them with XPrivacy or LineageOS's PrivacyGuard)
 	2. Enable the Google Services you need (I didn't enable Google Cloud Messaging and didn't even install GsfProxy and it still worked. So I left everything off)
 	3. Open Self-Check **(don't activate Battery Optimization yet)**
-		* Make sure the first 4 points in "Installed Packages" are set (this means it works)
+		* Try enabling everything under "Signature Spoofing support". Here is a known issue where you can't activate "System grants signature spoofing permission", please read the section below. Everything works when the first 4 marks in "Installed Packages" are set.
 		* Make sure the Gsf and/or Location points are set, if you installed those features (I don't know when you have to configure location)
 5. Reboot
 6. Open microG settings again
@@ -46,3 +46,7 @@ Most Google Apps should work, except Google Play Music or Hangouts. You can find
 I recommend Aurora, as it's looking better than Yalp and has one or two features more. I've read somewhere that BlankStore isn't that great, but I don't know about that.
 
 Note: Google might not like those apps. You're responsible if something happens to your Google Account. But no one has heard of something like that happening yet.
+
+## Known Problems
+
+Normally, when you click on "System grants signature spoofing permission" in Self-Check under "Sgnature spoofung support", you should get a Dialog where you need to allow the app to use that. I installed my ROM a couple of times and every time I got no Dialog. But according to microG settings, everything has the correct signature. So everything's fine.
