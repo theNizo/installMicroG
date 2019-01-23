@@ -33,7 +33,7 @@ Most Google Apps should work, except Google Play Music or Hangouts. You can find
 		* Make sure the Gsf and/or Location points are set, if you installed those features.
 5. **Reboot**
 6. Open microG settings again
-	* Self-Check **Enable Battery optimizations**
+	* Self-Check (**Enable Battery optimizations**)
 ### Done
 
 ## How can I access the Play Store?
