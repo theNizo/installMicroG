@@ -41,7 +41,7 @@ Most Google Apps should work, except Google Play Music or Hangouts. You can find
 * Yalp
 * install an apk of the official PlayStore **(not tested)**
 
-I recommend Aurora, as it's looking better than Yalp (or even PlayStore) and has one or two features more. I've read somewhere that BlankStore isn't that great, but I don't know about that.
+I recommend Aurora, as it's looking better than Yalp (or even PlayStore) and has one or two features more.
 
 **Note:** Google might not like those apps. You're responsible if something happens to your Google Account. Happily no one has heard of a terminated account.
 
