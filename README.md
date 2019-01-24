@@ -49,7 +49,7 @@ I recommend Aurora, as it's looking better than Yalp (or even PlayStore) and has
 ## My way (pretty straightforward and easy to understand)
 You can get every app you need to install from F-Droid. This is what we're going to do.
 1. Install Signature Spoofing Checker from F-Droid and run it
-2. If it says disabled, flash [NanoDroid-Patcher](https://github.com/Nanolx/NanoDroid)
+2. If it says disabled, flash [NanoDroid-Patcher](https://github.com/Nanolx/NanoDroid) (again, it takes 10-15min)
 3. Add the repo [microg.org/fdroid/repo](https://microg.org/fdroid/repo?fingerprint=9BD06727E62796C0130EB6DAB39B73157451582CBD138E86C468ACC395D14165) to F-Droid
 4. Update Repositories
 5. Install MicroG Services Core (gms)
