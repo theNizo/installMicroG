@@ -54,11 +54,12 @@ You can get every app you need to install from F-Droid. This is what we're going
 4. Update Repositories
 5. Install MicroG Services Core (gms)
 6. Install FakeStore
-7. Open microG settings
+7. Open microG settings **(don't enable optimize battery yet)**
 	1. Allow missing permissions
-	2. In Self-Check d, try to enable as much points under "Signature spoofing support" as possible.
+	2. In Self-Check, try to enable as much points under "Signature spoofing support" as possible.
 	3. If "System spoofs Signature" and the two "has correct signature" points in "installed packages" are checked, everthing's fine
 8. Reboot
+9. microG settings -> Self-Check -> enable "Battery Optimization"
 9. Install Aurora Store
 10. **Done**
 
