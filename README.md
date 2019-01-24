@@ -15,6 +15,7 @@ Most Google Apps should work, except Google Play Music or Hangouts. You can find
 	* If it says disabled, install a patch. You can try [Needle](https://github.com/moosd/Needle), [haystack](https://github.com/Lanchon/haystack) or the [NanoDroid-Patcher](https://github.com/Nanolx/NanoDroid). I took NanoDroid, because you just need to flash a zip file, which you should already be familiar with. **Installing NanoDroid takes 10-15 minutes. Be patient.**
 
 ## Install
+For an simple tutorial, see "My way".
 1. In F-Droid, go to Settings -> Repositories and add [microg.org/fdroid/repo](https://microg.org/fdroid/repo?fingerprint=9BD06727E62796C0130EB6DAB39B73157451582CBD138E86C468ACC395D14165) and activate it. Just copy&paste this link. It has the correct fingerprint within it.
 2. Update Repositories.
 3. Install:
@@ -44,6 +45,22 @@ Most Google Apps should work, except Google Play Music or Hangouts. You can find
 I recommend Aurora, as it's looking better than Yalp (or even PlayStore) and has one or two features more.
 
 **Note:** Google might not like those apps. You're responsible if something happens to your Google Account. Happily no one has heard of a terminated account.
+
+## My way (pretty straightforward and easy to understand)
+You can get every app you need to install from F-Droid. This is what we're doing.
+1. Install Signature Spoofing Checker from F-Droid and run it
+2. If it says disabled, flash [NanoDroid-Patcher](https://github.com/Nanolx/NanoDroid)
+3. Add the repo [microg.org/fdroid/repo](https://microg.org/fdroid/repo?fingerprint=9BD06727E62796C0130EB6DAB39B73157451582CBD138E86C468ACC395D14165) to F-Droid
+4. Update Repositories
+5. Install MicroG Services Core (gms)
+6. Install FakeStore
+7. Open microG settings
+	1. Allow missing permissions
+	2. In Self-Check d, try to enable as much points under "Signature spoofing support" as possible.
+	3. If "System spoofs Signature" and the two "has correct signature" points in "installed packages" are checked, everthing's fine
+8. Reboot
+9. Install Aurora Store
+10. **Done**
 
 ## Known Problems
 
