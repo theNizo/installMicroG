@@ -65,6 +65,7 @@ You can get every app you need to install from F-Droid. This is what we're going
 
 ## Known Problems
 
+### Nothing happens when I click on "System grants signature spoofing permission"
 Normally, when you click on "System grants signature spoofing permission" in Self-Check under "Signature spoofing support", you should get a Dialog where you need to allow the app to use that. I installed my ROM a couple of times and every time I got no dialog. But according to microG settings, everything has the correct signature. So everything's fine.
 
 ### Can't sync contacts/calendar
