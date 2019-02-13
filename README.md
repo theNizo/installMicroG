@@ -68,7 +68,3 @@ You can get every app you need to install from F-Droid. This is what we're going
 ### Nothing happens when I click on "System grants signature spoofing permission"
 Normally, when you click on "System grants signature spoofing permission" in Self-Check under "Signature spoofing support", you should get a Dialog where you need to allow the app to use that. I installed my ROM a couple of times and every time I got no dialog. But according to microG settings, everything has the correct signature. So everything's fine.
 
-### Can't sync contacts/calendar
-MicroG doesn't include the Google Contacts Sync Adapter, as well as the Google Calendar Sync Adapter. You can get the APKs from somewhere else and install them. It's recommended to install them as System apps, but as far as I can remember, it should also work without being a system app.
-
-Unfortunately, I don't understand how to install that correctly (and it doesn't work for me at the moment). I'll update this section once I know more about it.
