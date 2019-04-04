@@ -37,6 +37,8 @@ For an simple tutorial, see "My way".
 	* Self-Check (**Enable Battery optimizations**)
 ### Done
 
+8. Additional: Install the Framework Proxy. I don't really know if it does something besides the checkmark in the microG settings, but you're free to do it.
+
 ## How can I access the Play Store?
 * Aurora (based on Yalp)
 * Yalp
