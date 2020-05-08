@@ -12,7 +12,7 @@ Most Google Apps should work, except Google Play Music or Hangouts. You can find
 This tutorial assumes that you've already installed a Custom ROM that doesn't have microG bundled, like LineageOS for microG. It also assumes that you have root access.
 
 * Get [F-Droid](https://f-droid.org/), or download the .apks from [the official site](https://microg.org/download.html). F-Droid is recommended, because you'll need to download some other stuff from there. I'll explain with F-Droid, but you can also get the required apps on another way if you want.
-* Make sure signature spoofing is enabled. Some Custom-ROMs already support Signature Spoofing. I used HavocOS which has built-in Signature Spoofing.
+* Make sure Signature Spoofing is enabled. Some Custom-ROMs already support Signature Spoofing. I used HavocOS which has built-in Signature Spoofing.
 	* Download Signature Spoofing Checker and start it. If it says enabled, you're good to go!
 	* If it says disabled, install a patch. You can try [Needle](https://github.com/moosd/Needle), [haystack](https://github.com/Lanchon/haystack) or the [NanoDroid-Patcher](https://github.com/Nanolx/NanoDroid). I took NanoDroid, because you just need to flash a zip file, which you should already be familiar with. **Installing NanoDroid takes 10-15 minutes. Be patient.**
 
@@ -32,7 +32,7 @@ For an simple tutorial, see "My way".
 	1. Allow missing permissions (you can still revoke them with XPrivacy or LineageOS's PrivacyGuard)
 	2. Enable the Google Services you need (You don't even have to check any)
 	3. Open Self-Check **(don't activate Battery Optimization yet)**
-		* Try enabling everything under "Signature Spoofing support". Here is a known issue where you can't activate "System grants signature spoofing permission", please read the section (Known problems) below. Everything works when the first 4 marks in "Installed Packages" are set.
+		* Try enabling everything under "Signature Spoofing support". Here is a known issue where you can't activate "System grants Signature Spoofing permission", please read the section (Known problems) below. Everything works when the first 4 marks in "Installed Packages" are set.
 		* Make sure the GSF and/or Location checkboxes are set, if you installed those features.
 5. **Reboot**
 6. Open microG settings again
@@ -60,8 +60,8 @@ You can get every app you need to install from F-Droid. This is what we're going
 6. Install FakeStore
 7. Open microG settings **(don't enable optimize battery yet)**
 	1. Allow missing permissions
-	2. In Self-Check, try to enable as much points under "Signature spoofing support" as possible.
-	3. If "System spoofs Signature" and the two "has correct signature" points in "installed packages" are checked, everthing's fine
+	2. In Self-Check, try to enable as much points under "Signature Spoofing support" as possible.
+	3. If "System spoofs signature" and the two "has correct signature" points in "installed packages" are checked, everthing's fine
 8. Reboot
 9. microG settings -> Self-Check -> enable "Battery Optimization"
 9. Install Aurora Store
@@ -69,10 +69,10 @@ You can get every app you need to install from F-Droid. This is what we're going
 
 ## Known Problems
 
-### Nothing happens when I click on "System grants signature spoofing permission"
-Normally, when you click on "System grants signature spoofing permission" in Self-Check under "Signature spoofing support", you should get a Dialog where you need to allow the app to use that. I installed my ROM a couple of times and every time I got no dialog. But according to microG settings, everything has the correct signature. So everything's fine.
+### Nothing happens when I click on "System grants Signature Spoofing permission"
+Normally, when you click on "System grants Signature Spoofing permission" in Self-Check under "Signature Spoofing support", you should get a Dialog where you need to allow the app to use that. I installed my ROM a couple of times and every time I got no dialog. But according to microG settings, everything has the correct signature. So everything's fine.
 
-EDIT: I didn't know that my ROM had an option to enable signature spoofing. I flashed NanoDroid, which gives any app Signature Spoofing that wants it, that's why this scenario happened.
+EDIT: I didn't know that my ROM had an option to enable Signature Spoofing. I flashed NanoDroid, which gives any app Signature Spoofing that wants it, that's why this scenario happened.
 
 ### My SmartWatch can't finish setup
 Yes, and **I** don't know how to fix it. I don't own a smartwatch.
