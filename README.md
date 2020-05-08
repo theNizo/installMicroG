@@ -76,3 +76,20 @@ EDIT: I didn't know that my ROM had an option to enable signature spoofing. I fl
 
 ### My SmartWatch can't finish setup
 Yes, and **I** don't know how to fix it. I don't own a smartwatch.
+
+### Phonesky and NanoDroid
+Pointed out by a [Reddit user](https://www.reddit.com/r/MicroG/comments/gfszih/found_an_error_in_the_wiki/fpvl7rq/), if you use NanoDroid, you have to use the following command for Phonesky to spoof signature:
+
+`pm grant com.android.vending android.permission.FAKE_PACKAGE_SIGNATURE`
+
+If you want to do it via adb, put `adb shell` in front.
+
+#### Why does it happen?
+
+To quote [TestsubjectNr1](https://www.reddit.com/user/TestsubjectNr1):
+
+"... it isn't being prompted to. Nor does it show up as an app in the section
+ where you can see what apps have spoofing rights (and give the rights 
+to apps manually)."
+
+His problem was on CarbonRom.
