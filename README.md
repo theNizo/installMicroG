@@ -1,6 +1,6 @@
 written by Nizo aka. the_Nizo
 
-How to install microG on Android Pie (9). Any other version has not been tested
+How to install microG on Android Pie (9) manually. Any other version has not been tested
 ===
 
 ## This tutorial aims to show how to get a minimum setup without location services and similar.
