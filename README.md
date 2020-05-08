@@ -9,6 +9,8 @@ How to install microG on Android Pie (9) manually. Any other version has not bee
 Most Google Apps should work, except Google Play Music or Hangouts. You can find the full List of incompatible Apps [here](https://github.com/microg/android_packages_apps_GmsCore/wiki/Problem-Apps)
 
 ## First:
+This tutorial assumes that you've already installed a Custom ROM that doesn't have microG bundled, like LineageOS for microG. It also assumes that you have root access.
+
 * Get [F-Droid](https://f-droid.org/), or download the .apks from [the official site](https://microg.org/download.html). F-Droid is recommended, because you'll need to download some other stuff from there. I'll explain with F-Droid, but you can also get the required apps on another way if you want.
 * Make sure signature spoofing is enabled. Some Custom-ROMs already support Signature Spoofing. I used HavocOS which has built-in Signature Spoofing.
 	* Download Signature Spoofing Checker and start it. If it says enabled, you're good to go!
