@@ -25,13 +25,13 @@ For an simple tutorial, see "My way".
 		* BlankStore, which is basically just a blank store.
 		* FakeStore, which is basically a dummy.
 		* You can also install the original PlayStore.apk, you can get it from [APKmirror](apkmirror.com). I haven't tested it.
-	* UnifiedNlp (if you want location services. You will need a location and address lookup backend)
+	* UnifiedNlp (if you want location services. You will need a location and address lookup backend. Some apps, like OSMand (OpenStreetMaps client) work without it.)
 4. Open microG settings
 	1. Allow missing permissions (you can still revoke them with XPrivacy or LineageOS's PrivacyGuard)
-	2. Enable the Google Services you need (I didn't enable Google Cloud Messaging and didn't even install GsfProxy and it still worked.)
+	2. Enable the Google Services you need (You don't even have to check any)
 	3. Open Self-Check **(don't activate Battery Optimization yet)**
 		* Try enabling everything under "Signature Spoofing support". Here is a known issue where you can't activate "System grants signature spoofing permission", please read the section (Known problems) below. Everything works when the first 4 marks in "Installed Packages" are set.
-		* Make sure the Gsf and/or Location points are set, if you installed those features.
+		* Make sure the GSF and/or Location checkboxes are set, if you installed those features.
 5. **Reboot**
 6. Open microG settings again
 	* Self-Check (**Enable Battery optimizations**)
@@ -40,11 +40,11 @@ For an simple tutorial, see "My way".
 8. Additional: Install the Framework Proxy. I don't really know if it does something besides the checkmark in the microG settings, but you're free to do it.
 
 ## How can I access the Play Store?
-* Aurora (based on Yalp)
+* Aurora Store (based on Yalp)
 * Yalp
 * install an apk of the official PlayStore **(not tested)**
 
-I recommend Aurora, as it's looking better than Yalp (or even PlayStore) and has one or two features more.
+I recommend Aurora, as it's looking better than Yalp (or even PlayStore) and has more features. It also has an anonymous account that you can log into. There's a privileged extension (install apps without having to accept them in the package installer) that you can get [here](https://gitlab.com/AuroraOSS/AuroraServices).
 
 **Note:** Google might not like those apps. You're responsible if something happens to your Google Account. Happily no one has heard of a terminated account.
 
@@ -70,3 +70,7 @@ You can get every app you need to install from F-Droid. This is what we're going
 ### Nothing happens when I click on "System grants signature spoofing permission"
 Normally, when you click on "System grants signature spoofing permission" in Self-Check under "Signature spoofing support", you should get a Dialog where you need to allow the app to use that. I installed my ROM a couple of times and every time I got no dialog. But according to microG settings, everything has the correct signature. So everything's fine.
 
+EDIT: I didn't know that my ROM had an option to enable signature spoofing. I flashed NanoDroid, which gives any app Signature Spoofing that wants it, that's why this scenario happened.
+
+### My SmartWatch can't finish setup
+Yes, and **I** don't know how to fix it. I don't own a smartwatch.
