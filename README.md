@@ -12,9 +12,9 @@ Most Google Apps should work, except Google Play Music or Hangouts. You can find
 This tutorial assumes that you've already installed a Custom ROM that doesn't have microG bundled, like LineageOS for microG. It also assumes that you have root access.
 
 * Get [F-Droid](https://f-droid.org/), or download the .apks from [the official site](https://microg.org/download.html). F-Droid is recommended, because you'll need to download some other stuff from there. I'll explain with F-Droid, but you can also get the required apps on another way if you want.
-* Make sure Signature Spoofing is enabled. Some Custom-ROMs already support Signature Spoofing. I used HavocOS which has built-in Signature Spoofing.
+* Make sure Signature Spoofing is enabled. Some Custom-ROMs already support Signature Spoofing. If your ROM doesn't have Signature Spoofing support, you can flash a patch, however I recommend against it, because NanoDroid automatically grants Signature spoofing to every app that wants to.
 	* Download Signature Spoofing Checker and start it. If it says enabled, you're good to go!
-	* If it says disabled, install a patch. You can try [Needle](https://github.com/moosd/Needle), [haystack](https://github.com/Lanchon/haystack) or the [NanoDroid-Patcher](https://github.com/Nanolx/NanoDroid). I took NanoDroid, because you just need to flash a zip file, which you should already be familiar with. **Installing NanoDroid takes 10-15 minutes. Be patient.**
+	* If it says disabled, you can install a patch. You can try [Needle](https://github.com/moosd/Needle), [haystack](https://github.com/Lanchon/haystack) or the [NanoDroid-Patcher](https://github.com/Nanolx/NanoDroid). I took NanoDroid, because you just need to flash a zip file, which you should already be familiar with. **Installing NanoDroid takes 10-15 minutes. Be patient.**
 
 ## Install
 For an simple tutorial, see "My way".
