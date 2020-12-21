@@ -5,6 +5,7 @@ How to install microG on Android Pie (9) manually. Any other version has not bee
 
 ## This tutorial aims to show how to get a minimum setup without location services and similar.
 ### DISCLAIMER: I am NOT responsible for bricked devices, thermonuclear war or for you getting fired because your alarm app failed. Period!
+### DISCLAIMER 2: What I said about NanoDroid is probably wrong. Please ignore that part.
 
 Most Google Apps should work, except Google Play Music or Hangouts. You can find the full List of incompatible Apps [here](https://github.com/microg/android_packages_apps_GmsCore/wiki/Problem-Apps)
 
