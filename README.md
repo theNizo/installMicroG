@@ -1,3 +1,5 @@
+(abandoned. AFAIK not quite correct info anymore.)
+
 written by Nizo aka. the_Nizo
 
 How to install microG on Android Pie (9) manually. Any other version has not been tested
